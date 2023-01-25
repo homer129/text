@@ -1,0 +1,133 @@
+/* General setup */
+@font-face {
+  font-family: '1942_report1942_report';
+  src: url('fonts/1942-webfont.woff2') format('woff2'),
+       url('fonts/1942-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'acmeregular';
+  src: url('fonts/acme-regular-webfont.woff2') format('woff2'),
+       url('fonts/acme-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  html {
+    font-family: 'acmeregular', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+  }
+
+  h1, h2 {
+    font-family: '1942_report1942_report', serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  section h2 + p {
+    padding-top: 20 px;
+  }
+
+  a:link, a:visited, a:focus, a:hover {
+    color: #a66;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a {
+    outline: none;
+  }
+
+  a:active {
+    font-style: italic;
+    background: rgb(149, 0, 0);
+    color: black;
+  }
+
+  a[href*="http"] {
+    background: url(external-link-52.png) no-repeat 100% 0;
+    background-size: 15px 15px;
+    padding-right: 17px;
+  }
+
+  li {
+    list-style-type: square;
+  }
+
+  nav a {
+    text-decoration: none;   
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    border: #a66 1px solid;
+    font-size: 2rem;
+    font-weight: 5;
+    padding: 30px 0px;
+  }
+
+  nav li {
+    list-style-type: none;
+  }
+
+
+
+
+  
